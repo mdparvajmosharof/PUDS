@@ -1,13 +1,11 @@
 import UnderConstruction from "../../Shared/UnderConstruction";
-import EventNews from "./EventNews";
 
-const Event = () => {
+const Member = () => {
 	return (
 		<div>
-			<EventNews></EventNews>
 			<UnderConstruction></UnderConstruction>
 		</div>
 	);
 };
 
-export default Event;
+export default Member;

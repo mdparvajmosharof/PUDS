@@ -3,10 +3,13 @@ import Root from "../Layout/Root";
 import Home from "../Pages/Home/Home";
 import Event from "../Pages/Events/Event";
 import Join from "../Pages/Join/Join";
+import ErrorPage from "./ErrorPage";
+import Member from "../Pages/Members/Member";
 const routes = createBrowserRouter([
 	{
 	  path: "/",
 	  element: <Root></Root>,
+	  errorElement: <ErrorPage></ErrorPage>,
 	  children: [
 		{
 			path: "/",
@@ -20,6 +23,10 @@ const routes = createBrowserRouter([
 			path: "/join",
 			element: <Join></Join>
 		},
+		{
+			path: "/members",
+			element: <Member></Member>
+		}
 	  ]
 	}
   ]);

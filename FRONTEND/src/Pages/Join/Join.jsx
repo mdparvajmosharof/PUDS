@@ -1,8 +1,9 @@
+import UnderConstruction from "../../Shared/UnderConstruction";
 
 const Join = () => {
 	return (
 		<div>
-			<h3 className="text-center">Join</h3>
+			<UnderConstruction></UnderConstruction>
 		</div>
 	);
 };
