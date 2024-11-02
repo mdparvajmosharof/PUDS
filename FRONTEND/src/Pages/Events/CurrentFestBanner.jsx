@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 
 const CurrentFestBanner = () => {
   return (
-    <div className="flex justify-center w-full bg-gray-100">
+    <div className="flex justify-center w-full bg-gray-100 my-8">
       <div className="w-full h-60 md:h-96 lg:h-[600px] max-w-6xl">
         <Swiper
           modules={[Navigation, Pagination, Autoplay]}

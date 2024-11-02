@@ -2,7 +2,7 @@ import a from "../../../src/assets/Images/cover1.jpg";
 
 const About = () => {
   return (
-    <div className="flex flex-col md:flex-row gap-4 items-center md:items-start my-12">
+    <div className="flex flex-col md:flex-row gap-4 items-center md:items-start my-8">
       <div className="text-center md:text-left md:w-1/2 space-y-4 p-4">
         <h3 className="font-bold text-lg md:text-xl">
           Wonder what PUDS is all about?
