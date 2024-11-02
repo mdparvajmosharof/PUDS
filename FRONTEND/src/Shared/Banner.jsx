@@ -7,6 +7,7 @@ import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import e from "../../src/assets/Images/cover1.jpg";
 import h from "../../src/assets/Images/debate1.jpg";
 import { Link } from "react-router-dom";
+
 const Banner = () => {
   return (
     <div className="w-full h-60 md:h-96 lg:h-[600px] bg-gray-100">

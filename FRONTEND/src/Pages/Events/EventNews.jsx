@@ -1,23 +1,27 @@
 import Marquee from "react-fast-marquee";
 import { Link } from "react-router-dom";
+import { FaBullhorn, FaTrophy, FaUniversity, FaStar } from "react-icons/fa";
+
 const EventNews = () => {
   return (
-    <div className="flex my-2">
-      <button className="btn btn-primary px-2">Breaking News</button>
-      <Marquee pauseOnHover={true} speed={100}>
-		<Link className="mr-12" to="/">
-		6th PUDS Gateway is coming...
-		</Link>
-		<Link className="mr-12" to="/">
-		PUDS has successfully organized the PUDS National Debate Fest 2024
-		</Link>
-		<Link className="mr-12" to="/">
-		6th PUDS Gateway is coming...
-		</Link>
-		<Link className="mr-12" to="/">
-		PUDS has successfully organized the PUDS National Debate Fest 2024
-		</Link>
-		
+    <div className="flex my-4 items-center">
+      <Marquee pauseOnHover={true} speed={150}>
+        <Link className="mr-12 text-3xl font-bold flex items-center" to="/">
+          <FaBullhorn className="text-blue-500 mr-2" />
+          Welcome to Premier University Debating Society.
+        </Link>
+        <Link className="mr-12 text-3xl font-bold flex items-center" to="/">
+          <FaTrophy className="text-yellow-500 mr-2" />
+          New member recruitment is going on!
+        </Link>
+        <Link className="mr-12 text-3xl font-bold flex items-center" to="/">
+          <FaUniversity className="text-green-500 mr-2" />
+          Welcome to Premier University Debating Society.
+        </Link>
+        <Link className="mr-12 text-3xl font-bold flex items-center" to="/">
+          <FaStar className="text-purple-500 mr-2" />
+          New member recruitment is going on!
+        </Link>
       </Marquee>
     </div>
   );

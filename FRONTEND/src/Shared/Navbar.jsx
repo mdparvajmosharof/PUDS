@@ -14,10 +14,10 @@ const Navbar = () => {
       <li>
         <NavLink to='/members'>Members</NavLink>
       </li>
-      <li>
+      {/* <li>
         <NavLink to='/join'>Join</NavLink>
       </li>
-      {/* <li>
+      <li>
 			<NavLink to="/manageMyFoods">Borrowed Books</NavLink>
 		  </li> */}
     </>

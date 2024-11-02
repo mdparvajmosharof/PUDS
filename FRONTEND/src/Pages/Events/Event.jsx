@@ -1,11 +1,13 @@
 import UnderConstruction from "../../Shared/UnderConstruction";
+import CurrentFest from "./CurrentFest";
 import EventNews from "./EventNews";
 
 const Event = () => {
 	return (
 		<div>
 			<EventNews></EventNews>
-			<UnderConstruction></UnderConstruction>
+			<CurrentFest></CurrentFest>
+			{/* <UnderConstruction></UnderConstruction> */}
 		</div>
 	);
 };
