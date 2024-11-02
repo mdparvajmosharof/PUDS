@@ -1,5 +1,5 @@
 import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";   // npm install swiper
+import { Swiper, SwiperSlide } from "swiper/react"; // npm install swiper
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -28,13 +28,15 @@ const Banner = () => {
               alt="Library Image 1"
               className="w-full h-full object-cover"
             />
-            <div className="absolute inset-0 bg-black bg-opacity-40 flex flex-col justify-center items-center">
-              <h2 className="text-2xl md:text-4xl text-white font-bold">
-			          Boost your Public Speaking Skill
+            <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-end items-center pb-8 text-center">
+              <h2 className="text-3xl md:text-5xl text-white font-extrabold drop-shadow-lg">
+                Boost your Public Speaking Skills
               </h2>
-              <Link to='/events'>
-			     <button className="btn btn-secondary text-white font-bold mt-2">Join</button>
-			  </Link>
+              <Link to="/events">
+                <button className="bg-violet-600 text-white font-bold mt-4 px-6 py-2 rounded-full shadow-lg transform transition-transform duration-300 hover:scale-105">
+                  Join
+                </button>
+              </Link>
             </div>
           </div>
         </SwiperSlide>
@@ -45,13 +47,15 @@ const Banner = () => {
               alt="Library Image 2"
               className="w-full h-full object-cover"
             />
-            <div className="absolute inset-0 bg-black bg-opacity-40 flex flex-col justify-center items-center">
-              <h2 className="text-2xl md:text-4xl text-white font-bold">
-			          Be a Part of the Legacy
+            <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-end items-center pb-8 text-center">
+              <h2 className="text-3xl md:text-5xl text-white font-extrabold drop-shadow-lg">
+                Be a Part of the Legacy
               </h2>
-			  <Link to='/events'>
-			     <button className="btn btn-secondary text-white font-bold mt-2">Join</button>
-			  </Link>
+              <Link to="/events">
+                <button className="bg-violet-600 text-white font-bold mt-4 px-6 py-2 rounded-full shadow-lg transform transition-transform duration-300 hover:scale-105">
+                  Join
+                </button>
+              </Link>
             </div>
           </div>
         </SwiperSlide>
@@ -59,6 +63,5 @@ const Banner = () => {
     </div>
   );
 };
+
 export default Banner;
-
-
