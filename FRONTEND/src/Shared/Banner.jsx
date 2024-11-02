@@ -30,9 +30,9 @@ const Banner = () => {
             />
             <div className="absolute inset-0 bg-black bg-opacity-40 flex flex-col justify-center items-center">
               <h2 className="text-2xl md:text-4xl text-white font-bold">
-			    Boost your Public Speaking Skill
+			          Boost your Public Speaking Skill
               </h2>
-              <Link to='/join'>
+              <Link to='/events'>
 			     <button className="btn btn-secondary text-white font-bold mt-2">Join</button>
 			  </Link>
             </div>
@@ -47,9 +47,9 @@ const Banner = () => {
             />
             <div className="absolute inset-0 bg-black bg-opacity-40 flex flex-col justify-center items-center">
               <h2 className="text-2xl md:text-4xl text-white font-bold">
-			    Be a Part of the Legacy
+			          Be a Part of the Legacy
               </h2>
-			  <Link to='/join'>
+			  <Link to='/events'>
 			     <button className="btn btn-secondary text-white font-bold mt-2">Join</button>
 			  </Link>
             </div>
