@@ -21,7 +21,7 @@ const Headline = () => {
 			{/* Message with icon */}
 			<div className="flex items-center text-white">
 				<FaBullhorn className="text-yellow-300 text-2xl mr-2" />
-				<h3 className="text-base md:text-lg lg:text-xl font-semibold">
+				<h3 className="text-3xl md:text-lg lg:text-xl font-semibold">
 					Recruitment of new members is going on!
 				</h3>
 			</div>

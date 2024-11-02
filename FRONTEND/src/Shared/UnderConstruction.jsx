@@ -10,7 +10,7 @@ const UnderConstruction = () => {
 		  </div>
           <div className="text-center my-4">
 			<button>
-			   <Link to="/" className="btn btn-outline btn-error text-center font-bold p-2 rounded-xl flex justify-center">Go Back Home</Link>
+			   <Link to="/" className="btn btn-outline btn-error text-center font-bold p-2 rounded-xl flex justify-center">Home</Link>
 			</button>
 		  </div>
 		</div>
