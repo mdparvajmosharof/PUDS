@@ -4,8 +4,8 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
-import e from "../../src/assets/Images/e.jpg";
-import h from "../../src/assets/Images/h.jpg";
+import e from "../../src/assets/Images/cover1.jpg";
+import h from "../../src/assets/Images/debate1.jpg";
 import { Link } from "react-router-dom";
 const Banner = () => {
   return (
