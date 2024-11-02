@@ -1,5 +1,6 @@
 import logo from '../../src/assets/logo.png';
 import userdefaultPic from '../../src/assets/user.png';
+import DebateIcon from '../../src/assets/debateIcon.png';
 import { NavLink } from 'react-router-dom';
 const Navbar = () => {
   const navLinks = (
@@ -74,7 +75,7 @@ const Navbar = () => {
         <div className='w-10 rounded-full md:tooltip md:tooltip-left'></div>
         <img
           alt='Tailwind CSS Navbar component'
-          src={userdefaultPic}
+          src={DebateIcon}
           className='rounded-full mr-1 w-8 h-8 mr-'
         />
       </div>
