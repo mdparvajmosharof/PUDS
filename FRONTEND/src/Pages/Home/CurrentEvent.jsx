@@ -6,7 +6,6 @@ const CurrentEvent = () => {
   return (
     <div className="flex flex-col items-center my-8">
       <h2 className="my-4 font-bold text-3xl text-center">Current Event</h2>
-	  <span className="block w-full h-1 bg-violet-500 absolute bottom-0 left-0 transform translate-y-1/2"></span>
       <Link to="/events">
         <img
           src={a}

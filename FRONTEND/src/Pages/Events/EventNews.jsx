@@ -8,7 +8,7 @@ const EventNews = () => {
       <Marquee pauseOnHover={true} speed={150}>
         <Link className="mr-12 text-3xl font-bold flex items-center" to="/">
           <FaBullhorn className="text-blue-500 mr-2" />
-          Welcome to Premier University Debating Society.
+          Registration is open for 6th PUDS gateway!
         </Link>
         <Link className="mr-12 text-3xl font-bold flex items-center" to="/">
           <FaTrophy className="text-yellow-500 mr-2" />
@@ -16,7 +16,7 @@ const EventNews = () => {
         </Link>
         <Link className="mr-12 text-3xl font-bold flex items-center" to="/">
           <FaUniversity className="text-green-500 mr-2" />
-          Welcome to Premier University Debating Society.
+          Registration is open for 6th PUDS gateway!
         </Link>
         <Link className="mr-12 text-3xl font-bold flex items-center" to="/">
           <FaStar className="text-purple-500 mr-2" />
