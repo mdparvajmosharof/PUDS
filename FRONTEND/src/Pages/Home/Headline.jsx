@@ -27,7 +27,7 @@ const Headline = () => {
 			</div>
 
 			{/* Register Now button with icon */}
-			<Link to="https://www.facebook.com/share/1nZvWtVSmzvkPShA/" target="_blank" className="flex items-center">
+			<Link to="https://docs.google.com/forms/d/e/1FAIpQLSd1CI_pErJQuAYz5qbxjVbWyW4LXc1E4aWLFXVupdww2AS8-w/viewform" target="_blank" className="flex items-center">
 				<button className="flex items-center bg-yellow-400 hover:bg-yellow-500 text-violet-900 font-bold px-4 py-2 rounded-full transition duration-300 ease-in-out shadow-md hover:shadow-lg text-sm md:text-base lg:text-lg">
 					Register Now
 					<FaArrowRight className="ml-2" />

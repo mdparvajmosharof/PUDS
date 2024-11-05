@@ -5,7 +5,7 @@ const CurrentFest = () => {
   return (
     <div>
       <CurrentFestBanner></CurrentFestBanner>
-      <div className="max-w-2xl mx-auto p-6 bg-white rounded-lg shadow-lg">
+      <div className="max-w-2xl mx-auto p-6 bg-white rounded-lg shadow-lg my-8">
         <h1 className="text-2xl font-bold text-center text-violet-600 mb-4">
           6th PUDS Gateway 2024 Workshops
         </h1>
