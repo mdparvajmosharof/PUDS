@@ -4,7 +4,7 @@ import logo from "../../src/assets/logo.png";
 const Footer = () => {
   return (
     <div>
-      <footer className="footer footer-center bg-black text-primary-content p-10 mt-8">
+      <footer className="footer footer-center bg-[#212121] text-primary-content p-10 mt-8">
         <div className="grid grid-cols-4 items-center">
           {" "}
           <div className="col-span-2">
@@ -35,7 +35,7 @@ const Footer = () => {
             </aside>
             <nav>
               <div className="flex justify-center gap-10 ">
-                <a>
+                <a className="border rounded-full p-2 hover:bg-slate-200 hover:text-black cursor-pointer delay-75 ease-in-out transition ">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
@@ -46,7 +46,7 @@ const Footer = () => {
                     <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path>
                   </svg>
                 </a>
-                <a>
+                <a className="border rounded-full p-2 hover:bg-slate-200 hover:text-black cursor-pointer delay-75 ease-in-out transition ">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
@@ -58,6 +58,7 @@ const Footer = () => {
                   </svg>
                 </a>
                 <a
+                  className="border rounded-full p-2 hover:bg-slate-200 hover:text-black cursor-pointer delay-75 ease-in-out transition "
                   href="https://www.facebook.com/PremierUniversityDebatingSociety"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -77,23 +78,33 @@ const Footer = () => {
           </div>
           {/**Quick Links */}
           <div className="">
-            <h1 className="text-2xl font-bold "> Quick links</h1>
+            <h1 className="text-2xl font-bold border-b-2 "> Quick links</h1>
             <ul className="text-left my-5">
               <Link to={"/events"}>
-                <li className="text-lg">Events</li>
+                <li className="text-lg hover:underline cursor-pointer">
+                  Events
+                </li>
               </Link>
               <Link to={"/members"}>
-                <li className="text-lg">Members</li>
+                <li className="text-lg hover:underline cursor-pointer">
+                  Members
+                </li>
               </Link>
             </ul>
           </div>
           <div className="mt-12">
-            <h1 className="text-2xl font-bold "> Publications</h1>
+            <h1 className="text-2xl font-bold border-b-2 "> Publications</h1>
             <ul className="text-left my-5">
-              <li className="text-lg">Press Releases</li>
-              <li className="text-lg">Blogs</li>
-              <li className="text-lg">Newsletter</li>
-              <li className="text-lg">Magazine</li>
+              <li className="text-lg hover:underline cursor-pointer">
+                Press Releases
+              </li>
+              <li className="text-lg hover:underline cursor-pointer">Blogs</li>
+              <li className="text-lg hover:underline cursor-pointer">
+                Newsletter
+              </li>
+              <li className="text-lg hover:underline cursor-pointer">
+                Magazine
+              </li>
             </ul>
           </div>
         </div>

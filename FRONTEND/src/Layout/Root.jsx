@@ -14,6 +14,7 @@ const Root = () => {
       <ScrollToTop
         smooth
         component={<img src={MyCustomSvg} alt="Scroll to top" />}
+        className="hover:scale-125 delay-75 transition ease-in-out"
         style={{
           borderRadius: "50%",
         }}
