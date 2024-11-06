@@ -3,7 +3,7 @@
 const CurrentPanel = () => {
     return (
         <div>
-            CurrentPane 
+            <h3 className="text-center">Current Panel</h3>
         </div>
     );
 };
