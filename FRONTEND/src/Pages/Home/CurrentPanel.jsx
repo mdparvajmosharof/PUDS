@@ -1,6 +1,6 @@
 import "../../components/CurrentPanel.css";
 import { Swiper, SwiperSlide } from "swiper/react";
-import React, { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
@@ -23,8 +23,7 @@ const CurrentPanel = () => {
         <h3 className="my-4 font-bold text-3xl text-center">Current Panel</h3>
         <p className="w-2/3 text-center mx-auto mb-10">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis
-          nulla officia iusto quas sunt, provident laboriosam cum laudantium
-          dolor illo?
+          nulla officia iusto quas sunt, provident laboriosam cum laudantium illo?
         </p>
       </div>
 
