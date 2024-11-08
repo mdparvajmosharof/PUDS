@@ -23,7 +23,7 @@ const CurrentPanel = () => {
         <h3 className="my-4 font-bold text-3xl text-center">Current Panel</h3>
         <p className="w-2/3 text-center mx-auto mb-10">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis
-          nulla officia iusto quas sunt, provident laboriosam cum laudantium illo?
+          nulla officia iusto quas sunt, laboriosam cum laudantium illo?
         </p>
       </div>
 
