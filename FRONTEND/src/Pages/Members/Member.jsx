@@ -17,7 +17,7 @@ const Member = () => {
 
   return (
     <>
-      <div className="grid grid-cols-2 justify-center">
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 justify-center place-items-center gap-10 my-10">
         {data.map((res) => (
           <div key={res.id} className="card bg-base-100 w-96 shadow-xl">
             <figure>
